@@ -1,8 +1,8 @@
-# 🎯 Famous Person Classifier System
+# 🎯 Famous Person Recognition System
 
 ## 📌 Overview
 
-This project is a Machine Learning-based Famous Person Classifier System that identifies celebrities from images using Computer Vision and Machine Learning techniques.
+This project is a Machine Learning-based Famous Person Recognition System that identifies celebrities from images using Computer Vision and Machine Learning techniques.
 
 The system performs face detection, image preprocessing, feature extraction using Wavelet Transform, and classification using multiple machine learning algorithms. Model performance was evaluated using Cross-Validation and Test Accuracy metrics.
 
@@ -21,7 +21,7 @@ The system performs face detection, image preprocessing, feature extraction usin
 
 ---
 
-## 🏆 Famous Celebrity Included
+## 🏆 Celebrities Included
 
 * Virat Kohli
 * Lionel Messi
@@ -47,7 +47,7 @@ The system performs face detection, image preprocessing, feature extraction usin
 
 ## 🔄 Project Workflow
 
-1. Collect famous celebrity images
+1. Collect celebrity images from publicly available sources
 2. Detect faces using Haar Cascade Classifiers
 3. Crop and preprocess face regions
 4. Extract wavelet features
@@ -131,7 +131,7 @@ Face_Recognition_pipeline.ipynb
 
 ## 📷 Results
 
-The model successfully classifies celebrity faces using handcrafted image features and traditional machine learning algorithms. Logistic Regression outperformed SVM and Random Forest models on the processed dataset.
+The system successfully classifies celebrity faces using OpenCV-based face detection, Wavelet Transform feature extraction, and machine learning classifiers. Logistic Regression achieved the best performance with 83.45% cross-validation accuracy and 75.68% test accuracy.
 
 ---
 
@@ -147,6 +147,6 @@ The model successfully classifies celebrity faces using handcrafted image featur
 
 ## 👨‍💻 Author
 
-**Karan **
+**Karan**
 
 ---
