@@ -1,8 +1,8 @@
-# 🎯 Celebrity Face Recognition System
+# 🎯 Famous Person Classifier System
 
 ## 📌 Overview
 
-This project is a Machine Learning-based Celebrity Face Recognition System that identifies celebrities from images using Computer Vision and Machine Learning techniques.
+This project is a Machine Learning-based Famous Person Classifier System that identifies celebrities from images using Computer Vision and Machine Learning techniques.
 
 The system performs face detection, image preprocessing, feature extraction using Wavelet Transform, and classification using multiple machine learning algorithms. Model performance was evaluated using Cross-Validation and Test Accuracy metrics.
 
@@ -21,7 +21,7 @@ The system performs face detection, image preprocessing, feature extraction usin
 
 ---
 
-## 🏆 Celebrities Included
+## 🏆 Famous Celebrity Included
 
 * Virat Kohli
 * Lionel Messi
@@ -47,7 +47,7 @@ The system performs face detection, image preprocessing, feature extraction usin
 
 ## 🔄 Project Workflow
 
-1. Collect celebrity images
+1. Collect famous celebrity images
 2. Detect faces using Haar Cascade Classifiers
 3. Crop and preprocess face regions
 4. Extract wavelet features
@@ -90,7 +90,7 @@ Celebrity-Face-Recognition-System/
 │
 ├── opencv/
 ├── test_images/
-├── Celebrity_Face_Recognition.ipynb
+├── Face_Recognition_pipeline.ipynb
 ├── saved_model.pkl
 ├── class_dictionary.json
 ├── requirements.txt
@@ -124,7 +124,7 @@ jupyter notebook
 Run:
 
 ```text
-Celebrity_Face_Recognition.ipynb
+Face_Recognition_pipeline.ipynb
 ```
 
 ---
@@ -147,8 +147,6 @@ The model successfully classifies celebrity faces using handcrafted image featur
 
 ## 👨‍💻 Author
 
-**Karan Arya**
-
-Computer Science Engineering Student | Data Science & Analytics Enthusiast
+**Karan **
 
 ---
