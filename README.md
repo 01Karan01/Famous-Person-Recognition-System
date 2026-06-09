@@ -1,53 +1,154 @@
-# FamousPerson_Classifier_System
-##Overview
+# 🎯 Celebrity Face Recognition System
 
-This project is a machine learning-based FamousPerson Classifier system that identifies famous personalities from images. The system uses OpenCV for face detection, Wavelet Transform for feature extraction, and Scikit-Learn classifiers for training and prediction.
+## 📌 Overview
 
-##Features
-Face detection using OpenCV Haar Cascades
-Image preprocessing and face cropping
-Wavelet Transform-based feature extraction
-Comparison of multiple machine learning models:
-Logistic Regression
-Linear SVM
-Random Forest
-Hyperparameter tuning using GridSearchCV
-Confusion Matrix and Classification Report for evaluation
-Model serialization using Joblib
+This project is a Machine Learning-based Celebrity Face Recognition System that identifies celebrities from images using Computer Vision and Machine Learning techniques.
 
-##Dataset
-The dataset consists of images of the following celebrities:
+The system performs face detection, image preprocessing, feature extraction using Wavelet Transform, and classification using multiple machine learning algorithms. Model performance was evaluated using Cross-Validation and Test Accuracy metrics.
 
-Virat Kohli
-Lionel Messi
-Serena Williams
-Maria Sharapova
-IShowSpeed
+---
 
-After preprocessing and face detection, valid face images were extracted and used for model training.
+## 🚀 Features
 
-##Model Performance
-Model	Cross Validation Accuracy	Test Accuracy
-Logistic Regression	83.45%	75.68%
-Linear SVM	80.00%	70.27%
-Random Forest	70.34%	64.86%
+* Face Detection using OpenCV Haar Cascades
+* Automatic Face Cropping and Preprocessing
+* Wavelet Transform Feature Extraction
+* Feature Scaling using StandardScaler
+* Multi-Class Celebrity Classification
+* Model Comparison using GridSearchCV
+* Confusion Matrix Visualization
+* Model Serialization using Joblib
 
-Best Model: Logistic Regression
+---
 
-##Technologies Used
-Python
-OpenCV
-NumPy
-PyWavelets
-Scikit-Learn
-Matplotlib
-Seaborn
-Joblib
-Future Improvements
-Increase dataset size and diversity
-Use deep learning models such as CNNs
-Build a web application for real-time predictions
-Improve face detection using modern detectors
-##Author
+## 🏆 Celebrities Included
 
-Karan Arya
+* Virat Kohli
+* Lionel Messi
+* Serena Williams
+* Maria Sharapova
+* IShowSpeed
+
+---
+
+## 🛠️ Technologies Used
+
+* Python
+* OpenCV
+* NumPy
+* PyWavelets
+* Scikit-Learn
+* Matplotlib
+* Seaborn
+* Joblib
+* Jupyter Notebook
+
+---
+
+## 🔄 Project Workflow
+
+1. Collect celebrity images
+2. Detect faces using Haar Cascade Classifiers
+3. Crop and preprocess face regions
+4. Extract wavelet features
+5. Combine raw image and wavelet features
+6. Train multiple machine learning models
+7. Perform hyperparameter tuning using GridSearchCV
+8. Evaluate model performance
+9. Save the best-performing model
+
+---
+
+## 📊 Model Performance
+
+| Model               | Cross Validation Accuracy | Test Accuracy |
+| ------------------- | ------------------------- | ------------- |
+| Logistic Regression | **83.45%**                | **75.68%**    |
+| Linear SVM          | 80.00%                    | 70.27%        |
+| Random Forest       | 70.34%                    | 64.86%        |
+
+### ✅ Best Model
+
+**Logistic Regression**
+
+---
+
+## 📈 Classification Report
+
+* Accuracy: **75.68%**
+* Macro F1 Score: **77%**
+* Weighted F1 Score: **76%**
+
+The Logistic Regression model achieved the best balance between precision, recall, and overall generalization performance.
+
+---
+
+## 📂 Project Structure
+
+```text
+Celebrity-Face-Recognition-System/
+│
+├── opencv/
+├── test_images/
+├── Celebrity_Face_Recognition.ipynb
+├── saved_model.pkl
+├── class_dictionary.json
+├── requirements.txt
+├── README.md
+└── .gitignore
+```
+
+---
+
+## ▶️ How to Run
+
+### Clone Repository
+
+```bash
+git clone <repository-link>
+cd Celebrity-Face-Recognition-System
+```
+
+### Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### Open Notebook
+
+```bash
+jupyter notebook
+```
+
+Run:
+
+```text
+Celebrity_Face_Recognition.ipynb
+```
+
+---
+
+## 📷 Results
+
+The model successfully classifies celebrity faces using handcrafted image features and traditional machine learning algorithms. Logistic Regression outperformed SVM and Random Forest models on the processed dataset.
+
+---
+
+## 🔮 Future Improvements
+
+* Increase dataset size and diversity
+* Implement CNN-based Deep Learning models
+* Real-time webcam face recognition
+* Deploy as a Flask/Streamlit web application
+* Use modern face detectors such as MTCNN or YOLO
+
+---
+
+## 👨‍💻 Author
+
+**Karan Arya**
+
+Computer Science Engineering Student | Data Science & Analytics Enthusiast
+
+---
